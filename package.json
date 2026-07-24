@@ -1,0 +1,16 @@
+{
+  "name": "url-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small web application that audits a web page URL.",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vercel": "^56.5.0"
+  }
+}
